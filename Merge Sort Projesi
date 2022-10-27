@@ -1,0 +1,21 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1-[16,21,11]    [8,12,22]
+
+ [16]  [21,11]   [8] [12,22]
+ 
+ [16] [21] [11]  [8] [12] [22]
+ 
+ [16]  [11,21]   [8] [12,22]
+ 
+ [11,16,21]  [8,12,22]
+ 
+ [8,11,12,16,21,22]
+ 
+ 2- Big-O gösterimi:
+ 
+ parçaladıktan sonra bütünleştirirken her bir satırda (n-1) tane işlem yapıyorum kontrol etmek için ve bütünleştirmek içinde (2^x = n den x = logn den)
+ log n işlem yapmış oluyoruz.
+ O(n-1).O(logn) = O(n).O(logn) = O(n.logn) olur.
+ 
+ [Patika.dev](https://www.patika.dev/tr)
